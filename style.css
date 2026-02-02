@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top left, #7c3aed, #020617);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    min-height: 40vh;
+}
+
+.left .hello {
+    color: #a78bfa;
+    font-size: 18px;
+}
+
+.left h1 {
+    font-size: 56px;
+    margin: 12px 0 8px;
+}
+
+.title {
+    font-size: 24px;
+    color: #c4b5fd;
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+/* CENTER IMAGE */
+.center {
+    position: relative;
+}
+
+.center img {
+    width: 200px;
+    border-radius: 14px;
+    position: relative;
+    z-index: 5;
+}
+
+.image-glow {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: #7c3aed;
+    filter: blur(120px);
+    top: -15px;
+    left: -15px;
+}
+
+/* SECTIONS */
+section {
+    background: #020617;
+    padding: 26px 80px;
+}
+
+/* Reduce gap specifically between hero and about */
+#about {
+    padding-top: 4px;
+}
+
+section h2 {
+    margin-bottom: 14px;
+    color: #a78bfa;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* EXPERIENCE SPACING */
+#experience h3 {
+    margin-top: 22px;
+    margin-bottom: 4px;
+}
+
+#experience p {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+
+/* PROJECTS SPACING */
+#projects h3 {
+    margin-top: 22px;
+    margin-bottom: 4px;
+}
+
+#projects p {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+
+/* CERTIFICATIONS */
+.cert-list li {
+    margin-bottom: 10px;
+}
+
+.cert-list a {
+    color: #c4b5fd;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 16px;
+    background: #020617;
+}
